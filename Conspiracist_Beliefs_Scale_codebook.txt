@@ -1,0 +1,108 @@
+This data was collected through an interactive on-line version of the Generic Conspiracist Beliefs Scale in 2016.
+See Brotherton, Robert, Christopher C. French, and Alan D. Pickering. "Measuring belief in conspiracy theories: the generic conspiracist beliefs scale." Frontiers in psychology 4 (2013). 
+Visitors completed the test primarily for personal amusement.
+At the end of the test but before the results were displayed, users were asked if they would be willing to complete an additional survey and allow their responses to be saved for research. Only users who agreed yes are in this dataset. Individuals with age < 13 were not recorded.
+
+Constructs / Factors
+1) Government Malfeasance (GM)
+2) Extraterrestrial Cover-up (ET)
+3) Malevolent Global Conspiracies (MG)
+4) Personal Wellbeing (PW)
+5) Control of Information (CI)
+
+The responses to the GCBS are in (question numbers match to items in TABLE A1 of Brotherton, et. al. 2013.):
+
+Q1 - Q15
+
+Q1 (GM) The government is involved in the murder of innocent citizens and/or well-known public figures, and keeps this a secret
+Q6 (GM) The government permits or perpetrates acts of terrorism on its own soil, disguising its involvement 
+Q11 (GM) The government uses people as patsies to hide its involvement in criminal activity
+Q2 (MG) The power held by heads of state is second to the of small unknown groups who really control world politics
+Q7 (MG) A small, secret group of people is responsible for making all major world decisions, such as going to war
+Q12 (MG) Certain significant events have been the result of the activity of a small group who secretly manipulate world events
+Q3 (ET) Secret organizations communicate with extraterrestrials, but keep this fact from the public
+Q8 (ET) Evidence of alien contact is being concealed from the public
+Q13 (ET) Some UFO sightings and rumors are planned or staged in order to distract the public from real alien contact
+Q4 (PW) The spread of certain viruses and/or diseases is the result of the deliberate, concealed efforts of some organization
+Q9 (PW) Technology with mind-control capacities is used on people without their knowledge
+Q14 (PW) Experiments involving new drugs or technologies are routinely carried out on the public without their knowledge or consent
+Q5 (CI) Groups of scientists manipulate, fabricate, or suppress evidence in order to deceive the public
+Q10 (CI) New and advanced technology which would harm current industry is being suppressed
+Q15 (CI) A lot of important information is deliberately concealed from the public out of self-interest
+
+The time spent answering each question was also recorded, and are stored in variables
+
+E1 - E15 ######### REMOVED ##########
+
+The other following time elapses were also recorded:
+
+introelapse		The time spent on the introduction/landing page (in seconds) ###### REMOVED ########
+testelapse		The time spent on the GCBS questions ########## REMOVED ##########
+surveyelapse	The time spent answering the rest of the demographic and survey questions ########## REMOVED ##########
+
+The Ten Item Personality Inventory was administered (see Gosling, S. D., Rentfrow, P. J., & Swann, W. B., Jr. (2003). A Very Brief Measure of the Big Five Personality Domains. Journal of Research in Personality, 37, 504-528.):
+
+TIPI1	Extraverted, enthusiastic.
+TIPI2	Critical, quarrelsome.
+TIPI3	Dependable, self-disciplined.
+TIPI4	Anxious, easily upset.
+TIPI5	Open to new experiences, complex.
+TIPI6	Reserved, quiet.
+TIPI7	Sympathetic, warm.
+TIPI8	Disorganized, careless.
+TIPI9	Calm, emotionally stable.
+TIPI10	Conventional, uncreative.
+
+The TIPI items were rated "I see myself as:" _____ such that
+
+1 = Disagree strongly
+2 = Disagree moderately
+3 = Disagree a little
+4 = Neither agree nor disagree
+5 = Agree a little
+6 = Agree moderately
+7 = Agree strongly
+
+
+
+The following items were presented as a check-list and subjects were instructed "In the grid below, check all the words whose definitions you are sure you know":
+
+############# SECTION REMOVED ###############
+
+VCL1	boat
+VCL2	incoherent
+VCL3	pallid
+VCL4	robot
+VCL5	audible
+VCL6	cuivocal
+VCL7	paucity
+VCL8	epistemology
+VCL9	florted
+VCL10	decide
+VCL11	pastiche
+VCL12	verdid
+VCL13	abysmal
+VCL14	lucid
+VCL15	betray
+VCL16	funny
+
+A value of 1 is checked, 0 means unchecked. The words at VCL6, VCL9, and VCL12 are not real words and can be used as a validity check.
+
+A bunch more questions were then asked:
+
+
+education			"How much education have you completed?", 1=Less than high school, 2=High school, 3=University degree, 4=Graduate degree
+urban				"What type of area did you live when you were a child?", 1=Rural (country side), 2=Suburban, 3=Urban (town, city)
+gender				"What is your gender?", 1=Male, 2=Female, 3=Other
+engnat				"Is English your native language?", 1=Yes, 2=No
+age					"How many years old are you?"
+hand				"What hand do you use to write with?", 1=Right, 2=Left, 3=Both
+religion			"What is your religion?", 1=Agnostic, 2=Atheist, 3=Buddhist, 4=Christian (Catholic), 5=Christian (Mormon), 6=Christian (Protestant), 7=Christian (Other), 8=Hindu, 9=Jewish, 10=Muslim, 11=Sikh, 12=Other
+orientation			"What is your sexual orientation?", 1=Heterosexual, 2=Bisexual, 3=Homosexual, 4=Asexual, 5=Other
+race				"What is your race?", 1=Asian, 2=Arab, 3=Black, 4=Indigenous Australian, Native American or White***, 5=Other
+voted				"Have you voted in a national election in the past year?", 1=Yes, 2=No
+married				"What is your marital status?", 1=Never married, 2=Currently married, 3=Previously married
+familysize			"Including you, how many children did your mother have?"		
+major				"If you attended a university, what was your major (e.g. "psychology", "English", "civil engineering")?"
+
+***There was an error in the coding of they survey, these options were separate but all were given the same numerical value

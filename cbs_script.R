@@ -1,0 +1,1 @@
+# Conspiracist Beliefs Scale 
